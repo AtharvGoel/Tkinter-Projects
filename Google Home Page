@@ -1,0 +1,27 @@
+# Google home page
+
+from tkinter import *
+
+top = Tk()
+top.state('zoomed')
+#top.configure(background = 'white')
+
+L8 = Label(top, text = 'Google', bg = 'green', font = ('Baskerville Bold', 75)).place(x = 550, y = 100)
+
+L1 = Label(top, text = 'G', fg = 'blue', bg = 'white', font = ('Baskerville Bold', 75)).place(x = 550, y = 230)
+L2 = Label(top, text = 'o', fg = 'red', bg = 'white', font = ('Baskerville Bold', 75)).place(x = 627, y = 230)
+L3 = Label(top, text = 'o', fg = 'yellow', bg = 'white', font = ('Baskerville Bold', 75)).place(x = 683, y = 230)
+L4 = Label(top, text = 'g', fg = 'blue', bg = 'white', font = ('Baskerville Bold', 75)).place(x = 785, y = 230)
+L5 = Label(top, text = 'l', fg = 'green', bg = 'white', font = ('Baskerville Bold', 75)).place(x = 850, y = 230)
+L6 = Label(top, text = 'e', fg = 'red', bg = 'white', font = ('Baskerville Bold', 75)).place(x = 925, y = 230)
+
+E1 = Entry(top, bd = 3, width = 35, font = 2).place(x = 520, y = 375)
+
+L2 = Label(top, text = 'G', fg = 'blue', bg = 'white').place(x = 0, y = 0)
+L3 = Label(top, text = 'O', fg = 'red', bg = 'white').place(x = 20, y = 0)
+L4 = Label(top, text = 'O', fg = 'yellow', bg = 'white').place(x = 40, y = 0)
+L5 = Label(top, text = 'G', fg = 'blue', bg = 'white').place(x = 60, y = 0)
+L6 = Label(top, text = 'L', fg = 'green', bg = 'white').place(x = 80, y = 0)
+L7 = Label(top, text = 'E', fg = 'red', bg = 'white').place(x = 100, y = 0)
+
+window = mainloop()
